@@ -2,4 +2,54 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flash Chat/Controllers/FlashChatViewController.swift"
+            timestampString = "547882697.792359"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "keyboardWillShow(notification:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flash_Chat.FlashChatViewController.keyboardWillShow(notification: __ObjC.NSNotification) -&gt; ()"
+                  moduleName = "Flash Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bang.tran/Desktop/Training_Swift_Udemy/Flash%20Chat/Flash%20Chat/Controllers/FlashChatViewController.swift"
+                  timestampString = "547882162.2133811"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "1207">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Flash_Chat.FlashChatViewController.keyboardWillShow(notification: __ObjC.NSNotification) -&gt; ()"
+                  moduleName = "Flash Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bang.tran/Desktop/Training_Swift_Udemy/Flash%20Chat/Flash%20Chat/Controllers/FlashChatViewController.swift"
+                  timestampString = "547882162.215058"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

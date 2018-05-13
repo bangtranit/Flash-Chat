@@ -9,5 +9,6 @@
 import UIKit
 
 class Message: NSObject {
-
+    var sender : String = ""
+    var messageBody : String = ""
 }
