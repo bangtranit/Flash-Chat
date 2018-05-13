@@ -58,7 +58,7 @@ class FlashChatViewController: UIViewController, UITableViewDelegate, UITableVie
         if let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
             heightOfKeyboard = Float(keyboardSize.height)
             UIView.animate(withDuration: 0.2) {
-                self.inputMessageViewHeightConstraint.constant = CGFloat(Float(3 + self.heightOfKeyboard))
+                self.inputMessageViewHeightConstraint.constant = CGFloat(Float(50 + self.heightOfKeyboard))
                 self.view.layoutIfNeeded()
             }
         }
@@ -150,7 +150,7 @@ class FlashChatViewController: UIViewController, UITableViewDelegate, UITableVie
     //TODO: Textfield delegate
     func textFieldDidBeginEditing(_ textField: UITextField) {
         UIView.animate(withDuration: 0.2) {
-            self.inputMessageViewHeightConstraint.constant = CGFloat(Float(3 + self.heightOfKeyboard))
+            self.inputMessageViewHeightConstraint.constant = CGFloat(Float(50 + self.heightOfKeyboard))
             self.view.layoutIfNeeded()
         }
     }
