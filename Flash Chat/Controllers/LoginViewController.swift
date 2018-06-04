@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import SVProgressHUD
+import AlertBar
 
 class LoginViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
@@ -26,8 +27,10 @@ class LoginViewController: UIViewController {
             SVProgressHUD.dismiss()
             if error != nil{
                 print("login failed\(error!)")
+                AlertBar.show(type: .error, message: "Login failed. Please check email or password.")
             }else{
                 print("login successed")
+                AlertBar.show(type: .success, message: "Login success.")
                 self.saveDataLogin()
                 self.performSegue(withIdentifier: "goToChat", sender: self)
             }
@@ -45,7 +48,6 @@ class LoginViewController: UIViewController {
         emailTextField.text = UserDefaults.standard.value(forKey: "email") as! String?
         passwordTextField.text = UserDefaults.standard.value(forKey: "password") as! String?
     }
-
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

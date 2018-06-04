@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>962546606319-jlbdie5ufru71osij257f9edn47ehb4b.apps.googleusercontent.com</string>
+	<string>579712710766-g6cl7hp6nvvd920pklhocehf4hcj06nn.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.962546606319-jlbdie5ufru71osij257f9edn47ehb4b</string>
+	<string>com.googleusercontent.apps.579712710766-g6cl7hp6nvvd920pklhocehf4hcj06nn</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDakzqRSFOS6aYQcPIq-V6O5HT-5t6F07M</string>
+	<string>AIzaSyDxDRB5WxythIDN6HF8FtCSDjmgRZ81nDg</string>
 	<key>GCM_SENDER_ID</key>
-	<string>962546606319</string>
+	<string>579712710766</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>jp.jinjerkintai.user.dev2.Flash-Chat</string>
+	<string>com.bang.tran.flash-chat.production</string>
 	<key>PROJECT_ID</key>
-	<string>flash-chat-db81c</string>
+	<string>flash-chat-8a500</string>
 	<key>STORAGE_BUCKET</key>
-	<string>flash-chat-db81c.appspot.com</string>
+	<string>flash-chat-8a500.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:962546606319:ios:d6f10500c95477f7</string>
+	<string>1:579712710766:ios:d76a32c435878838</string>
 	<key>DATABASE_URL</key>
-	<string>https://flash-chat-db81c.firebaseio.com</string>
+	<string>https://flash-chat-8a500.firebaseio.com</string>
 </dict>
 </plist>

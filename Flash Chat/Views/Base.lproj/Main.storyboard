@@ -179,25 +179,28 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mdk-xs-9bg">
-                                        <rect key="frame" x="296" y="8" width="71" height="30"/>
+                                        <rect key="frame" x="296" y="1" width="79" height="46"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="lvq-C4-vsE"/>
+                                            <constraint firstAttribute="height" constant="46" id="lvq-C4-vsE"/>
                                         </constraints>
-                                        <state key="normal" title="Send"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Send">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="onClickSendMessage:" destination="ZXf-OU-2rY" eventType="touchUpInside" id="pzI-nj-2i9"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="3zV-22-6d6" firstAttribute="leading" secondItem="0Ll-E3-3r9" secondAttribute="leading" constant="8" id="1f3-KS-aOd"/>
-                                    <constraint firstItem="Mdk-xs-9bg" firstAttribute="top" secondItem="0Ll-E3-3r9" secondAttribute="top" constant="8" id="GOw-zp-T3b"/>
+                                    <constraint firstItem="Mdk-xs-9bg" firstAttribute="top" secondItem="0Ll-E3-3r9" secondAttribute="top" constant="1" id="GOw-zp-T3b"/>
                                     <constraint firstItem="3zV-22-6d6" firstAttribute="top" secondItem="0Ll-E3-3r9" secondAttribute="top" constant="8" id="TUd-kO-UZl"/>
                                     <constraint firstAttribute="height" constant="50" id="UGo-QK-uwA"/>
                                     <constraint firstAttribute="trailing" secondItem="3zV-22-6d6" secondAttribute="trailing" constant="87" id="Wuk-L8-Dqz"/>
                                     <constraint firstItem="Mdk-xs-9bg" firstAttribute="leading" secondItem="3zV-22-6d6" secondAttribute="trailing" constant="8" id="ZW4-7e-teV"/>
-                                    <constraint firstAttribute="trailing" secondItem="Mdk-xs-9bg" secondAttribute="trailing" constant="8" id="ZkN-N1-1rG"/>
+                                    <constraint firstAttribute="trailing" secondItem="Mdk-xs-9bg" secondAttribute="trailing" id="ZkN-N1-1rG"/>
                                 </constraints>
                             </view>
                         </subviews>

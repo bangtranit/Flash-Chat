@@ -1,4 +1,5 @@
 PODS:
+  - AlertBar (0.4.2)
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
@@ -41,6 +42,7 @@ PODS:
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
+  - AlertBar
   - ChameleonFramework
   - Firebase/Auth
   - Firebase/Core
@@ -49,6 +51,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AlertBar
     - ChameleonFramework
     - Firebase
     - FirebaseAnalytics
@@ -63,6 +66,7 @@ SPEC REPOS:
     - SVProgressHUD
 
 SPEC CHECKSUMS:
+  AlertBar: 0512ccfdc339dbe22c93799682308e93c784358f
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   Firebase: 4bd804448ab2596794698773d41520a0af101e65
   FirebaseAnalytics: 19812b49fa5f283dd6b23edf8a14b5d477029ab8
@@ -76,6 +80,6 @@ SPEC CHECKSUMS:
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 980e786f37f41a9cbe9e880bd4b57e506532c14d
+PODFILE CHECKSUM: 38a2538618368293df7600344989f5063d137390
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.5.3

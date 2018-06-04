@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import SVProgressHUD
+import AlertBar
 
 class RegisterViewController: UIViewController {
 
@@ -30,9 +31,11 @@ class RegisterViewController: UIViewController {
         Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error ) in
             if error != nil{
                 print(error!)
+                AlertBar.show(type: .error, message: "Register failed. Please check email or password.")
             }
             else{
                 print("register success")
+                AlertBar.show(type: .success, message: "Login success.")
                 self.performSegue(withIdentifier: "goToChat", sender: self)
             }
             SVProgressHUD .dismiss()
